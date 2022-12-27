@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volpi - Tattoo</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/galery.css">
+    <link rel="icon" href="assets/CSS/image/icon.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+<body>
+
+
+
+    <!-- TITULO -->
+    <h1 class="title" style="--duration: 1s">
+        <span style="--delay: .5s">Volpi</span>
+        <span style="--delay: .8s">Tattoo</span>
+    </h1>
+
+
+    <!-- Navegação -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javacript: void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about">Sobre</a>
+        <a href="#galery">Galeria</a>
+        <a href="#contact">Contato</a>
+
+    </div>
+
+    <span onclick="openNav()" class="navbar">&#9776;</span>
+    <div id="main">
+    </div>
+    <!-- Trabalhos -->
+
+    <div class="tittle__initial">
+        <h1>Primeiros Trabalhos</h1>
+    </div>
+
+    <div class="container" id="works">
+
+        <div class="box">
+            <div class="imgBx">
+                <img src="assets/CSS/image/image_tattoo/Tattoo_luis_felipe_1.jpeg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Primeiro Trabalho</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgBx">
+                <img src="assets/CSS/image/image_tattoo/Tattoo_sino.jpeg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Segundo Trabalho</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="imgBx">
+                <img src="assets/CSS/image/image_tattoo/Tattoo_yasmin_1.jpeg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Terceiro Trabalho</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre -->
+
+    <div class="about" id="about">
+        <div>
+            <span>
+                <h1>Sobre mim</h1>
+            </span>
+        </div>
+        <div class="desc__about">
+            <span>
+                <p>Olá, me chamo João Henrique Volpi!
+                    <br>
+                    Vou contar um pouco sobre minha história e como descobri meu amor pela arte de tatuar.
+                    <br>
+                    Comecei minha carreira como tatuador a partir de uma grande paixão por artes.
+                    <br>
+                    Porém, sofri um acidente que comprometeu minha locomoção. A partir disso, navegando pelas redes
+                    sociais, descobri perfis de grandes tatuadores, como o influencer "Adão Rosa". Isso marcou o início
+                    do meu sonho.
+                    <br>
+                    Me dediquei nos estudos de métodos e técnicas de tatuagem, consumindo o máximo de conteúdo que pude.
+                    <br>
+                    Fui presenteado por um amigo com um kit que me possibilitou por em prática tudo o que eu havia
+                    aprendido e, dessa forma, minhas primeiras reproduções foram em peles artificiais. Fiz cada traço e
+                    cada trabalho com o máximo de empenho e amor.
+                    <br>
+                    Desde então, sigo como tatuador e me apaixono a cada dia mais pela minha arte.
+                </p>
+            </span>
+        </div>
+    </div>
+
+    <!-- Galeria -->
+
+    <h1 class="title__works" style="--duration: 1s">
+        <span style="--delay: .5s">Galeria</span>
+    </h1>
+
+    <div class="full-img" id="fullImgBox">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_luis_felipe_1.jpeg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="img-gallery" id="galery">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_luis_felipe_1.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_sino.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_Yasmin_2.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_luis_felipe_2.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_kennedy.jpeg" onclick="openFullImg(this.src)">
+        <img src="assets/CSS/image/image_tattoo/Tattoo_yasmin_1.jpeg" onclick="openFullImg(this.src)">
+    </div>
+
+
+
+    <!-- Footer - Contato  -->
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container" id="contact">
+                <div class="row">
+
+                    <div class="col-mds-6 item text">
+                        <h3>Volpi Tattoo</h3>
+                        <p>Arte sentida na pele</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://www.facebook.com/joaohenrique.volpi" target="_blank"><i class="icon ion-social-facebook"></i></a>
+                        <a href="https://wa.me/5517996124207?text=Ol%C3%A1%2C+gostaria+de+realizar+um+or%C3%A7amento" target="_blank"><i class="icon ion-social-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/volpi_joao/" target="_blank"><i class="icon ion-social-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Volpi Tattoo © 2022</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
+    <script src="assets/script/script-main.js"></script>
+</body>
+
+</html>
