@@ -397,3 +397,62 @@ body::-webkit-scrollbar-thumb {
   font-size: 13px;
   margin-bottom: 0;
 }
+
+/* BOTÃO ORÇA */
+
+.button {
+  position: fixed;
+  top: 94%;
+  right: 27px;
+  z-index: 999;
+  display: inline-block;
+  border-radius: 14px;
+  background-color: rgb(226, 0, 0);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 16px;
+  padding-top: 13px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    right:-80px;
+    top: 75%;
+    transform: rotate(-90deg);
+  }
+
+}
